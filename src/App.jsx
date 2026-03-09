@@ -123,7 +123,6 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);-webkit-font-s
 .hs::after{content:'';position:absolute;bottom:50%;left:0;right:0;border-bottom:1px dashed var(--bd2);pointer-events:none}
 .hs.drop{background:var(--acl)!important}
 .hs.drop::before{content:'';position:absolute;inset:0;border:1.5px dashed var(--ac);border-radius:4px;opacity:.6;pointer-events:none;z-index:1}
-
 .cb{position:absolute;left:2px;right:2px;border-radius:5px;padding:4px 7px 3px;cursor:grab;z-index:2;overflow:hidden;transition:box-shadow .15s;box-shadow:var(--sh)}
 .cb:hover{z-index:4;box-shadow:var(--shm)}
 .cb:active{cursor:grabbing}
